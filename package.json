@@ -1,7 +1,7 @@
 {
   "name": "sitemap-xmls",
-  "version": "1.0.0",
-  "description": "sitemap generator to xml files.",
+  "version": "1.0.1",
+  "description": "a high-level sitemap-generating framework that makes creating sitemap XML files easy.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js lib/*.js",

@@ -11,7 +11,7 @@ npm install sitemap-xmls --save
 ## Usage
 
 ```js
-const smXml = require('sitemap-xml');
+const smXml = require('sitemap-xmls');
 
 const sitemapXml = new smXml('demo', 'https://demo.com/sitemap/',{
   releasePath: './release/'
