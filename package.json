@@ -1,5 +1,5 @@
 {
-  "name": "sitemap-xml",
+  "name": "sitemap-xmls",
   "version": "1.0.0",
   "description": "sitemap generator to xml files.",
   "main": "index.js",
