@@ -111,6 +111,23 @@ after that, it will generator sitemap just like in `./release/demo/`:
 </urlset>
 ```
 
+## Params
+
+### changefreq
+
+- always
+- hourly
+- daily
+- weekly
+- monthly
+- yearly
+- never
+
+### priority
+
+0.0 ~ 1.0
+
+
 ## 附：相关文档
 
 - [百度 sitemap](https://ziyuan.baidu.com/college/courseinfo?id=267&page=2#04)
