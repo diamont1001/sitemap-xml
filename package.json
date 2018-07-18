@@ -1,0 +1,34 @@
+{
+  "name": "sitemap-xml",
+  "version": "1.0.0",
+  "description": "sitemap generator to xml files.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js lib/*.js",
+    "test": "npm run lint"
+  },
+  "keywords": [
+    "sitemap",
+    "xml"
+  ],
+  "author": "材主 <diamont1001@163.com>",
+  "license": "ISC",
+  "dependencies": {
+    "sitemap": "^1.13.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diamont1001/sitemap-xml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/diamont1001/sitemap-xml/issues"
+  },
+  "homepage": "https://github.com/diamont1001/sitemap-xml#readme",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-jr": "^1.0.4"
+  }
+}
