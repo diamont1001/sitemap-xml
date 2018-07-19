@@ -22,7 +22,11 @@ sitemapXml.addSitemapType('apps', 'monthly', 0.8);
 
 sitemapXml.addLine('apps', 'https://demo.com/apps-demo-1.html');
 sitemapXml.addLine('apps', 'https://demo.com/apps-demo-2.html');
-sitemapXml.addLine('apps', 'https://demo.com/apps-demo-3.html');
+sitemapXml.addLine('apps', 'https://demo.com/apps-demo-3.html', {
+  lastmod: '2018-10-01',
+  changefreq: 'daily',
+  priority: 0.6
+});
 
 // important: don't forget the 'end()'
 sitemapXml.end('apps');
@@ -79,9 +83,9 @@ after that, it will generator sitemap just like in `./release/demo/`:
 </url>
 <url>
 <loc>https://demo.com/apps-demo-3.html</loc>
-<lastmod>2018-07-18</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
+<lastmod>2018-10-01</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.6</priority>
 </url>
 </urlset>
 ```
