@@ -43,7 +43,7 @@ sitemapXml.addLine('topics', 'https://demo.com/topics-demo-3.html');
 sitemapXml.end('topics');
 
 
-// finally, generator the index file
+// finally, generate the index file
 sitemapXml.createIndex();
 ```
 
