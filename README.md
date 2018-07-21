@@ -49,11 +49,18 @@ sitemapXml.createIndex();
 
 after that, it will generator sitemap just like in `./release/demo/`:
 
-- `index.xml`
-- `apps_10000.xml.gz`
-- `topics_10000.xml.gz`
+- `demo/index.json`
+- `demo/index.xml`
+- `demo/apps_10000.xml.gz`
+- `demo/topics_10000.xml.gz`
 
-【index.xml】
+【demo/index.json】
+
+```json
+{"index":"demo/index.xml","files":["demo/apps_10000.xml.gz","demo/topics_10000.xml.gz"]}
+```
+
+【demo/index.xml】
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -65,7 +72,7 @@ after that, it will generator sitemap just like in `./release/demo/`:
 </sitemapindex>
 ```
 
-【apps_10000.xml.gz】
+【demo/apps_10000.xml.gz】
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?><urlset>
@@ -90,7 +97,7 @@ after that, it will generator sitemap just like in `./release/demo/`:
 </urlset>
 ```
 
-【topics_10000.xml.gz】
+【demo/topics_10000.xml.gz】
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?><urlset>
