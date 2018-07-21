@@ -66,8 +66,8 @@ after that, it will generator sitemap just like in `./release/demo/`:
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <sitemap>
-<loc>https:/www.wandoujia.com/sitemap/wdj/apps_10000.xml.gz</loc>
-<loc>https:/www.wandoujia.com/sitemap/wdj/topics_10000.xml.gz</loc>
+<loc>https://demo.com/sitemap/demo/apps_10000.xml.gz</loc>
+<loc>https://demo.com/sitemap/demo/topics_10000.xml.gz</loc>
 </sitemap>
 </sitemapindex>
 ```
