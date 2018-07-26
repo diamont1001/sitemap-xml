@@ -131,6 +131,15 @@ after that, it will generator sitemap just like in `./release/demo/`:
 
 0.0 ~ 1.0
 
+### mobile
+
+```xml
+<mobile:mobile type="mobile"/> ：移动网页      
+<mobile:mobile type="pc,mobile"/>：自适应网页
+<mobile:mobile type="htmladapt"/>：代码适配
+```
+
+无该上述 `mobile` 标签表示为PC网页。
 
 ## 附：相关文档
 
