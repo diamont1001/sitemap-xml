@@ -1,6 +1,6 @@
 {
   "name": "sitemap-xmls",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "a high-level sitemap-generating framework that makes creating sitemap XML files easy.",
   "main": "index.js",
   "scripts": {
